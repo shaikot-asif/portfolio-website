@@ -40,6 +40,13 @@ $(document).ready(function () {
 
     scroller.init();
 
+
+    
+    // All animations will take exactly 500ms
+const scroll = new SmoothScroll('.main-nav a[href*="#"]', {
+	speed: 800,
+	speedAsDuration: true
+});
 });
 
 function openNav() {
