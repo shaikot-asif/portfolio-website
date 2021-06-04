@@ -226,9 +226,9 @@
     .portfolio-btn button{
         font-size: 1.5rem;
     }
-    /* #up-btn{
-        top: 55rem;
-    }  */
+    #up-btn{
+        top: 57rem;
+    } 
 }
 @media screen and (max-width: 337px) {
     .loicon {
