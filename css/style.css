@@ -25,6 +25,7 @@ html {
   }
   
   section {
+    overflow: hidden;
     padding: 8rem 0;
   }
   
@@ -870,10 +871,11 @@ html {
   }
   
   #up-btn {
-    top: 55rem !important;
+    top: 56rem !important;
     right: 3rem !important;
     border-radius: 50%;
     background: #686161 !important;
+    z-index: 999999 !important;
   }
   
   
